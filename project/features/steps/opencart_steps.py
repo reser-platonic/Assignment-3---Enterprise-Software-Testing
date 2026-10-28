@@ -221,7 +221,7 @@ def step_login_rejected(context):
 
 
 
-# F3 NAVIGATION
+# F5 NAVIGATION
 @given("I open the OpenCart home page")
 def step_home(context):
     context.driver.get(BASE_URL)
